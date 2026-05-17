@@ -106,7 +106,7 @@ def main():
         "",
     ]
     for topic_slug, copied in summary:
-        lines.append(f"- [`{topic_slug}/`](./{topic_slug}/) — {len(copied)} lectures")
+        lines.append(f"- [`{topic_slug}/`](./{topic_slug}/), {len(copied)} lectures")
     lines.append("")
     readme.write_text("\n".join(lines))
 

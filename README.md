@@ -16,7 +16,7 @@ See [`CLAUDE.md`](./CLAUDE.md) for the layout, conventions, and workflows.
 
 ## Shared resources
 
-- [`shared/`](./shared/) — cross-course cheatsheets, study habits, glossary.
+- [`shared/`](./shared/), cross-course cheatsheets, study habits, glossary.
 
 ## Getting started
 

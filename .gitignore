@@ -5,6 +5,7 @@ Thumbs.db
 # Editors
 .vscode/
 .idea/
+.obsidian/
 *.swp
 *~
 
@@ -54,6 +55,6 @@ _inbox/
 _tools/
 coursera-cauth
 
-# Lecture transcripts — UOL/Coursera copyrighted content, keep local only
-# (curate distilled notes into notes/ and knowledge-base/ instead, which can be committed)
+# Lecture transcripts: UOL/Coursera copyrighted content, keep local only.
+# Curate distilled notes into notes/ and knowledge-base/ instead, which can be committed.
 courses/*/notes/transcripts/

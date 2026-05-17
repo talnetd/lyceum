@@ -2,7 +2,7 @@
 
 People retain **~65%** of information when it is presented with a **relevant** visual, compared to only **~10%** without one. The same content lands roughly **6.5× better** when paired with an image, diagram, or chart that reinforces the message.
 
-This is the empirical foundation for the case that visual design in presentations is not cosmetic — it is load-bearing.
+This is the empirical foundation for the case that visual design in presentations is not cosmetic, it is load-bearing.
 
 ## Caveats
 - "Relevant" is doing serious work. **Irrelevant visuals can reduce retention** by splitting attention between the speaker and the slide.
@@ -18,5 +18,5 @@ This is the empirical foundation for the case that visual design in presentation
 - [[six-by-six-rule]]
 
 ## Sources
-- CM2045 Topic 2, Lecture 6 — "Presentation Zen: Using Visual Aids in Presentations"
-- Original empirical research not cited in lecture; commonly traced to dual-coding theory (Paivio, 1971) and Mayer's multimedia learning work — **verify before quoting in an exam.**
+- CM2045 Topic 2, Lecture 6, "Presentation Zen: Using Visual Aids in Presentations"
+- Original empirical research not cited in lecture; commonly traced to dual-coding theory (Paivio, 1971) and Mayer's multimedia learning work, **verify before quoting in an exam.**

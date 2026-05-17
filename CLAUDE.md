@@ -1,8 +1,8 @@
-# Lyceum — Study System for UOL BSc CS
+# Lyceum: Study System for UOL BSc CS
 
 > Codenamed after **Lyceum**, Aristotle's school in Athens.
 
-This repo is the user's personal study system for the online University of London BSc Computer Science programme. All academic work — notes, knowledge base entries, practice problems, code, slide decks — is organized **per course**.
+This repo is the user's personal study system for the online University of London BSc Computer Science programme. All academic work, notes, knowledge base entries, practice problems, code, slide decks, is organized **per course**.
 
 ## Repository layout
 
@@ -30,8 +30,8 @@ Folder name = the UOL course code (e.g. `CM2045`). The human-readable course nam
 
 ## File naming conventions
 
-- **Notes:** `week-NN-topic.md` (e.g. `week-03-recursion.md`) — zero-padded so they sort naturally.
-- **Knowledge base:** kebab-case concept names (e.g. `big-o-notation.md`, `tcp-handshake.md`). One concept per file. Link related concepts with `[[wiki-style]]` links — even if the target doesn't exist yet (that's a TODO marker).
+- **Notes:** `week-NN-topic.md` (e.g. `week-03-recursion.md`), zero-padded so they sort naturally.
+- **Knowledge base:** kebab-case concept names (e.g. `big-o-notation.md`, `tcp-handshake.md`). One concept per file. Link related concepts with `[[wiki-style]]` links, even if the target doesn't exist yet (that's a TODO marker).
 - **Practice:** `problem-set-NN.md` or `past-paper-YYYY.md`.
 - **Code:** mirror the topic structure. Use the language's idiomatic project layout (e.g. `pyproject.toml` for Python, `package.json` for Node).
 - **Decks:** `YYYY-MM-DD-title.pptx` or `.md` for outlines.
@@ -43,16 +43,16 @@ Run `./scripts/new-course.sh CM2045 "Programming with Python"` from the repo roo
 
 ### Adding study materials
 - Drop notes into `courses/<CODE>/notes/`.
-- For a concept worth remembering across courses, also add a `knowledge-base/` entry — it's the long-term memory; lecture notes are the short-term capture.
+- For a concept worth remembering across courses, also add a `knowledge-base/` entry, it's the long-term memory; lecture notes are the short-term capture.
 
 ### Generating slide decks
-The `enterprise-pptx` skill (Claude Code) can build polished .pptx decks from outlines — useful for revision summaries or study group presentations. Outlines live as Markdown in `decks/`, generated `.pptx` files alongside.
+The `enterprise-pptx` skill (Claude Code) can build polished .pptx decks from outlines, useful for revision summaries or study group presentations. Outlines live as Markdown in `decks/`, generated `.pptx` files alongside.
 
 ### Committing
 - Scope commits per course: `CM2045: add week 3 recursion notes`.
 - Cross-cutting changes: `shared: add Big-O cheatsheet`.
 
-## What goes where — quick reference
+## What goes where: quick reference
 
 | You want to save... | Put it in... |
 |---|---|
