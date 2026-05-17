@@ -1,0 +1,59 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Java / JVM
+*.class
+target/
+.gradle/
+
+# C / C++
+*.o
+*.obj
+*.exe
+a.out
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build artefacts from deck generation
+*.pptx.tmp
+~$*
+
+# Secrets / local
+.env
+.env.local
+*.local
+
+# Coursera ingestion (raw downloads + local tooling + auth cookie)
+_inbox/
+_tools/
+coursera-cauth
+
+# Lecture transcripts — UOL/Coursera copyrighted content, keep local only
+# (curate distilled notes into notes/ and knowledge-base/ instead, which can be committed)
+courses/*/notes/transcripts/
