@@ -10,7 +10,7 @@ See [`CLAUDE.md`](./CLAUDE.md) for the layout, conventions, and workflows.
 
 | Code | Name | Term | Status |
 |---|---|---|---|
-| [CM2045](./courses/CM2045/) | _(fill in)_ | _(e.g. Apr 2026)_ | In progress |
+| [CM2045](./courses/CM2045/) | Professional Practice for Computer Scientists | _(e.g. Apr 2026)_ | In progress |
 
 > Add a new course: `./scripts/new-course.sh <CODE> "<Full Name>"`
 
