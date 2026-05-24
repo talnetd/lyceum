@@ -58,3 +58,6 @@ coursera-cauth
 # Lecture transcripts: UOL/Coursera copyrighted content, keep local only.
 # Curate distilled notes into notes/ and knowledge-base/ instead, which can be committed.
 courses/*/notes/transcripts/
+
+# Programming activity PDFs: also UOL/Coursera copyrighted; keep local only.
+courses/*/practice/programming-activities/
