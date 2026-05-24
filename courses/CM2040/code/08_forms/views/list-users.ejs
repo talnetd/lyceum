@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List users</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <h1>Users</h1>
+    <ul>
+        <% users.forEach(function(user) { %>
+            <li><strong><%= user.name %></strong>, <%= user.role %></li>
+        <% }) %>
+    </ul>
+    <p><a href="/">back home</a></p>
+</body>
+</html>

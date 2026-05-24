@@ -1,0 +1,13 @@
+{
+  "name": "dynamic-html",
+  "version": "1.0.0",
+  "description": "CM2040 lab 7: dynamic HTML with EJS. End-of-topic-3 starter for the forms activity.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
