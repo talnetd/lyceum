@@ -28,6 +28,16 @@ lyceum/
 
 Folder name = the UOL course code (e.g. `CM2045`). The human-readable course name and other metadata live in `courses/<CODE>/README.md`. This keeps folder names short and scriptable while preserving full course information.
 
+### Non-UoL courses (RPL prep)
+
+Some Coursera Professional Certificates map to UoL modules via **Recognition of Prior Learning (RPL)**. These non-UoL courses live alongside UoL courses under `courses/`, distinguished by an `RPL-` prefix:
+
+- Convention: `RPL-<VENDOR>-<TOPIC>` (UPPERCASE), e.g. `RPL-IBM-DS`, `RPL-GOOG-CYBER`, `RPL-MS-CYBER`.
+- The README for an RPL course must include a **`Maps to UoL module:`** field naming the UoL course code(s) it exempts (e.g. CM2015).
+- Internal structure mirrors a regular course: `notes/`, `knowledge-base/`, `practice/`, `code/`, `decks/`.
+
+See `~/.claude/projects/.../memory/uol-rpl-mappings.md` for the authoritative cert→module map.
+
 ## File naming conventions
 
 - **Notes:** `week-NN-topic.md` (e.g. `week-03-recursion.md`), zero-padded so they sort naturally.
