@@ -155,13 +155,13 @@ OS security = preserving **confidentiality, integrity, availability** of the OS.
 Most systems are internet-facing today. Convenience (remote work, online services) creates exposure. Windows dominates desktops, so it's a big target. **70% of attacks in 2018 exploited MS Office vulnerabilities** (Kaspersky), via zero-day exploits in Word/Excel/Outlook documents.
 
 ### Key Windows security components
-| Component | Role |
-|---|---|
+| Component                            | Role                                                                 |
+| ------------------------------------ | -------------------------------------------------------------------- |
 | **Security Reference Monitor (SRM)** | Kernel-mode permission checks, audit-log entries, privilege handling |
-| **Local Security Authority (LSA)** | Enforces local security policy; issues authentication tokens |
-| **Security Account Manager (SAM)** | DB of user credentials and per-user/per-group data |
-| **Active Directory** | Identity, encryption, policy across Cloud + on-prem |
-| **WinLogon / NetLogon** | Local logins / network logins |
+| **Local Security Authority (LSA)**   | Enforces local security policy; issues authentication tokens         |
+| **Security Account Manager (SAM)**   | DB of user credentials and per-user/per-group data                   |
+| **Active Directory**                 | Identity, encryption, policy across Cloud + on-prem                  |
+| **WinLogon / NetLogon**              | Local logins / network logins                                        |
 
 ### Client-side vulnerabilities to know
 - Web browsers (top targets get the most attacks).

@@ -32,10 +32,10 @@ A three-axis model: **who** (origin), **how/where** (vector), **what** (impact).
 
 ### Axis 1, Origin: insider vs external
 
-| Type | Description | Sub-types | Example |
-|---|---|---|---|
-| **Insider** | Comes from within the organisation, current/former staff, contractors, partners with access | Malicious (deliberate) vs Negligent (accidental, e.g. lost device, phishing fall) | Tesla 2020, staff offered money to install malware (reported it) |
-| **External** | Comes from outside | Cybercriminals, hacker groups, state-sponsored actors, hacktivists | WannaCry vs NHS (2017) |
+| Type         | Description                                                                                 | Sub-types                                                                         | Example                                                          |
+| ------------ | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Insider**  | Comes from within the organisation, current/former staff, contractors, partners with access | Malicious (deliberate) vs Negligent (accidental, e.g. lost device, phishing fall) | Tesla 2020, staff offered money to install malware (reported it) |
+| **External** | Comes from outside                                                                          | Cybercriminals, hacker groups, state-sponsored actors, hacktivists                | WannaCry vs NHS (2017)                                           |
 
 ### Axis 2, Vector: network vs endpoint
 
