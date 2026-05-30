@@ -19,7 +19,7 @@
 
 | # | Course | Hours | Status |
 |---|---|---|---|
-| 01 | What is Data Science? | 12 | _Not started_ |
+| 01 | What is Data Science? | 12 | **Done** (45 transcripts distilled) |
 | 02 | Tools for Data Science | 16 | _Not started_ |
 | 03 | Data Science Methodology | 9 | _Not started_ |
 | 04 | Python for Data Science, AI & Development | 24 | _Not started_ |
